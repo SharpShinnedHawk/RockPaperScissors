@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets.css" />
+    <title></title>
+
+  </head>
+  <body>
+    <h1>Welcome to Rock Paper Scissors!</h1>
+    <p>Click on an image to play!</p>
+    <div id="Image_Row">
+      <img id = "Rock" class="image"img src="rps/images/rock.png" onclick="userClickRock(); computerChoice();" />
+      <img id = "Paper" class="image"img src="rps/images/paper.png" onclick="userClickPaper(); computerChoice();" />
+      <img id = "Scissors" class="image"img src="rps/images/scissors.png" onclick="userClickScissors(); computerChoice();" />
+    </div>
+      <div id="battle">
+        <div>
+          <img id="user-choice" class="image" src="rps/images/white.jpg" />
+        </div>
+
+
+        <div>
+          <img id="comp-choice" class="image" src="rps/images/white.jpg" />
+        </div>
+    </div>
+  <script src="main.js"></script>
+  </body>
+</html>
